@@ -13,6 +13,7 @@ It does not contain TVGlow itself. No part of the TVGlow application is here.
 | TVGlow | Libraries | Sources |
 | --- | --- | --- |
 | Windows | mpv 0.39.0 and FFmpeg 7.1, built by us as one library, `libmpv-2.dll` (SHA-256 `66af658d…1c0ef0c`) | [`windows/libmpv-66af658d`](windows/libmpv-66af658d), release [`windows-libmpv-66af658d`](https://github.com/TVGlowIPTV/video-libraries-source/releases/tag/windows-libmpv-66af658d) |
+| Windows | mpv 0.39.0 and FFmpeg 7.1 with zvbi 0.2.46 (teletext), built by us as one library, `libmpv-2.dll` (SHA-256 `1c553bca…9702fde6`) | [`windows/libmpv-1c553bca`](windows/libmpv-1c553bca), release [`windows-libmpv-1c553bca`](https://github.com/TVGlowIPTV/video-libraries-source/releases/tag/windows-libmpv-1c553bca) |
 | iPhone and iPad | mpv 0.36.0 and FFmpeg 6.0, as built by the media-kit project (release v0.6.0), unchanged by us | [`ios/libmpv-darwin-build-v0.6.0`](ios/libmpv-darwin-build-v0.6.0), release [`ios-libmpv-0.6.0`](https://github.com/TVGlowIPTV/video-libraries-source/releases/tag/ios-libmpv-0.6.0) |
 
 TVGlow for Android and Android TV does not include these libraries.
@@ -50,8 +51,8 @@ copyright notices of the libraries for each platform
 (`NOTICES-windows.txt`, `NOTICES-ios.txt`). Each library's own licence file is
 also inside its source archive.
 
-Our patches to FFmpeg and libplacebo are under the licence of the library
-they change.
+Our patches to FFmpeg, libplacebo and zvbi are under the licence of the
+library they change.
 
 ## Contact
 

@@ -265,6 +265,39 @@ the library -- shall not be considered to be derivative works of the examples.
 
 2. If building with pffft.c, see the licence embedded in that file.
 --------------------------------------------------------------------------------
+zvbi (libzvbi) 0.2.46, with changes
+
+Used under the GNU Lesser General Public License, version 2.1 (zvbi's licence allows version 2 or any later version). The licence texts are included with these notices. TVGlow changed it so that only its files under that licence are built: the files packet-830, pdc and exp-vtx, which are under the GNU General Public License, are left out, and with them the decoding of teletext local time and programme identification (PDC and VPS) data.
+
+Copyright (c) 1998 Manish Singh
+Copyright (c) 1999-2008 Michael H. Schimek
+Copyright (c) 2000 Stefan Westerfeld
+Copyright (c) 2000-2003 Iñaki G. Etxebarria
+Copyright (c) 2003-2004 Tom Zoerner
+
+The regular-expression code in zvbi (ure.c) is used under the following licence:
+
+Copyright 1997, 1998, 1999 Computing Research Labs, New Mexico State University
+Modifications by Iñaki García Etxebarrria and Michael H. Schimek
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+THE COMPUTING RESEARCH LAB OR NEW MEXICO STATE UNIVERSITY BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+--------------------------------------------------------------------------------
 Intel Video Processing Library (libvpl) 2.12.0
 
 Licence: MIT
