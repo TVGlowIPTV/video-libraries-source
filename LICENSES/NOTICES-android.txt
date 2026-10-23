@@ -1,0 +1,9 @@
+Audio decoding libraries
+
+The Android versions of TVGlow use the FFmpeg libraries to play some audio formats that the device cannot play itself. FFmpeg is free software, used under the GNU Lesser General Public License, and it and its use are covered by that licence. Nothing in TVGlow's own terms limits the rights that licence gives you in these libraries.
+
+FFmpeg 7.1 (libavcodec, libavutil and libswresample, built with audio decoders only). Copyright (c) 2000-2024 the FFmpeg developers. Used under the GNU Lesser General Public License, version 2.1 or later.
+
+The Media3 FFmpeg decoder module, which connects FFmpeg to the Media3 player, with changes. Copyright (C) The Android Open Source Project. Used under the Apache License, Version 2.0.
+
+The texts of the GNU Lesser General Public License, of the GNU General Public License, to which it refers, and of the Apache License, Version 2.0, are included further down this page.
